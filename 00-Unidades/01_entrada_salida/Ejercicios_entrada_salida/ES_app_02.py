@@ -5,8 +5,8 @@ from tkinter.simpledialog import askstring as prompt
 import customtkinter
 
 '''
-nombre:
-apellido:
+nombre: Franco
+apellido: Gil
 ---
 Ejercicio: entrada_salida_02
 ---
@@ -27,9 +27,8 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
-        
-        
+        Color_favorito_ingresado = prompt("ingrese su color favoriuto", "Color favorito")
+        alert("Su color favorito es:" , Color_favorito_ingresado) 
     
 if __name__ == "__main__":
     app = App()
