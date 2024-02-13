@@ -64,7 +64,7 @@ class App(customtkinter.CTk):
         dolar_oficial = int(prompt("Coti oficial", "Numero"))  
         diferncia_dolar = dolar_blue - dolar_oficial 
         porcentaje = diferncia_dolar * 100 / dolar_oficial
-        alert("Numero", porcentaje)  
+        alert("Numero", porcentaje)
 
        
 
